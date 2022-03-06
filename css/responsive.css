@@ -150,10 +150,10 @@
     .feat_coach .main_coachBox .coach_detil p.userLangu{
         font-size: 13px;
     }
-    .feat_coach .round_Effect::after{
+    /*.feat_coach .round_Effect::after{
         top: -12px;
         left: 33px;
-    }
+    }*/
 
 }
 
@@ -390,10 +390,10 @@
     .copyright{
         padding: 20px 0;
     }
-    .feat_coach .round_Effect::after{
+    /*.feat_coach .round_Effect::after{
         top: -11px;
         left: 63px;
-    }
+    }*/
     
     /******************************************
         Home Page Responsive end 04.03.2022
@@ -476,10 +476,10 @@
         /*width: 222px !important;*/
         margin-right: 20px;
     }
-    .feat_coach .round_Effect::after{
+    /*.feat_coach .round_Effect::after{
         top: -11px;
         left: 26px;
-    }
+    }*/
     .feat_coach .main_coachBox{
         padding: 12px;
     }
@@ -690,10 +690,10 @@
     .feat_coach .slick-next::before{
         display: none;
     }
-    .feat_coach .round_Effect::after {
+    /*.feat_coach .round_Effect::after {
         top: -12px;
         left: 55px;
-    }
+    }*/
     .feat_coach .slick-list::after{
         width: 6%;
         /*background: red;*/
