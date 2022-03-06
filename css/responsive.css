@@ -472,10 +472,7 @@
     .how_Work .advice_shape{
         margin: 0px auto;
     }
-    .feat_coach .slick-slide{
-        /*width: 222px !important;*/
-        margin-right: 20px;
-    }
+
     /*.feat_coach .round_Effect::after{
         top: -11px;
         left: 26px;
@@ -540,6 +537,9 @@
     .coach_cat{
         margin-top: 30px;
         padding-bottom: 30px;
+    }
+    .feat_coach .slick-slide{
+        left: 2px;
     }
     
     /******************************************
@@ -679,11 +679,6 @@
     .wrapper .parent-tab, .wrapper .child-tab{
         width: 100%;
     }
-    .feat_coach .slick-slide {
-        /* width: 319px !important; 
-        width: 276px !important;*/
-        
-    }
     .feat_coach .slick-prev::before{
         display: none;
     }
@@ -700,6 +695,9 @@
     }
     .feat_coach ul{
         padding-left: 0px;
+    }
+    .feat_coach .slick-slide{
+        left: 13px;
     }
 
     /******************************************
