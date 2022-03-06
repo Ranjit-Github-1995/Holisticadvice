@@ -942,6 +942,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .feat_coach .round_Effect{
     position: relative;
+    display: flex;
 }
 .feat_coach .main_coachBox .coach_round{
     width: 127px;
@@ -961,17 +962,19 @@ h1,h2,h3,h4,h5,h6,p{
     z-index: 1;
     overflow: hidden;
 }
-.feat_coach .round_Effect::after{
+.feat_coach .round_Effect::after {
     position: absolute;
     content: '';
-    top: -11px;
-    left: 45px;
+    top: 0;
+    left: 0;
     width: 144px;
     height: 147px;
     background-image: url(../images/coach-shape.png);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
+    right: 0;
+    margin: 0px auto;
 }
 .feat_coach .main_coachBox .coach_detil{
     width: 100%;
