@@ -1,0 +1,727 @@
+/* Responsive css */
+
+/* Responsive nav css */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1024px) {
+    .main_head .navbar-nav .clickD {
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        width: 10px;
+        height: 5px;
+        border-top: 5px solid #fff;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        cursor: pointer;
+        display: block;
+        background-size: 10px;
+        z-index: 9999;
+        transform: translateY(-50%);
+    }
+    .main_head ul.navbar-nav li .clickD+.sub-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: absolute;
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+
+@media (max-width: 991px){
+
+    .left_nav{
+        float: left;
+        justify-content: left;
+        padding-left: 15px;
+        align-items: flex-start;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .main_head .navbar-nav .clickD {
+        top: 25px;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: relative;
+        top: 100%;
+    }
+}
+
+
+/* Responsive nav end */
+
+@media (max-width: 1700px){
+    .faq::after{
+        right: 13%;
+    }
+}
+
+@media (max-width: 1599px){
+
+    .coach_cat::after{
+        bottom: 40px;
+        width: 62%;
+    }
+    .testmonial .slick-slide{
+        width: 382px;
+    }
+    .coach_cat::before{
+        right: -35px;
+    }
+    .faq::after{
+        right: 6%;
+    }
+
+}
+
+@media (min-width: 1300px){
+    .feat_coach .slick-list::after {
+        right: -15px;
+        top: 0;
+        content: '';
+        background-color: #fffbf6;
+        height: 100%;
+        z-index: 9;
+        position: absolute;
+        width: 2%;
+    }
+    .testmonial .slick-list::after {
+        right: -18px;
+        top: 0;
+        content: '';
+        background-color: #fff;
+        height: 100%;
+        z-index: 9;
+        position: absolute;
+        width: 2%;
+    }
+}
+
+@media (max-width: 1399px){
+    .feat_coach::after{
+        left: -42px;
+    }
+}
+
+@media (max-width: 1299px){
+
+    .coach_cat::after{
+        bottom: 10px;
+        width: 66%;
+    }
+    .faq::after {
+        right: 2%;
+    }
+    .Banner .banner_cap h1::after{
+        right: 36%;
+    }
+    .Banner{
+        background-size: 55%;
+    }
+    .feat_coach::after{
+        left: -52px;
+    }
+    .feat_coach .slick-slide{
+        width: 244px !important;
+        margin-right: 27px;
+    }
+    .feat_coach .slick-next{
+        right: -69px;
+        
+    }
+    .feat_coach .slick-list::after {
+        right: -23px;
+        top: 0;
+        content: '';
+        background-color: #fffbf6;
+        height: 100%;
+        z-index: 9;
+        position: absolute;
+        width: 4%;
+    }
+    .feat_coach .main_coachBox .coach_detil p.userLangu{
+        font-size: 13px;
+    }
+    .feat_coach .round_Effect::after{
+        top: -12px;
+        left: 33px;
+    }
+
+}
+
+@media (max-width: 1199px){
+
+    /******************************************
+        Home Page Responsive start 04.03.2022
+    ********************************************/
+
+    .navbar .navbar-nav>li{
+        padding: 9px 10px;
+    }
+    .beacome_coachBtn ul li a{
+        padding-right: 25px;
+    }
+    .Banner{
+        background-size: 62%;
+    }
+    .Banner .banner_cap h1{
+        font-size: 48px;
+        width: 53%;
+        padding-bottom: 30px;
+    }
+    .Banner .banner_cap h1::after{
+        right: 36%;
+    }
+    .Banner .banner_cap p{
+        font-size: 16px;
+        width: 41%;
+    }
+    .how_Work{
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    .how_Work .find_outerBox h3{
+        font-size: 18px;
+    }
+    .feat_coach .slick-slide {
+        width: 274px !important;
+        margin-right: 28px;
+    }
+    .feat_coach .slick-next::before{
+        right: 55px;
+    }
+    .coach_cat::after {
+        bottom: 4px;
+        width: 84%;
+        background-size: 79%;
+    }
+    .what_makes .right_content{
+        padding-left: 15px;
+    }
+    .what_makes .right_content h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .what_makes .left_imgBxo{
+        position: relative;
+        z-index: 1999;
+    }
+    .what_makes .right_content p{
+        padding-bottom: 8px;
+    }
+    .testmonial{
+        padding: 60px 0;
+    }
+    .testmonial .slick-slide{
+        width: 425px;
+    }
+    .testmonial .slick-list::after {
+        right: -23px;
+        top: 0;
+        content: '';
+        background-color: #fff;
+        height: 100%;
+        z-index: 9;
+        position: absolute;
+        width: 30%;
+        opacity: 0.5;
+    }
+    .testmonial .slick-list::before {
+        left: 0;
+        top: 0;
+        content: '';
+        background-color: #fff;
+        height: 100%;
+        z-index: 9;
+        position: absolute;
+        width: 24%;
+        opacity: 0.5;
+    }
+    .testmonial .slider-for .slick-current .active_user::after{
+        margin-left: -30%;
+    }
+    .faq::after {
+        right: 1%;
+    }
+    footer .quickLinks ul.secndlinks{
+        padding-left: 20px;
+    }
+    footer{
+        padding: 35px 0;
+    }
+    .coach_cat .cateArea ul li a{
+        font-size: 12px;
+    }
+
+    /******************************************
+        Home Page Responsive end 04.03.2022
+    ********************************************/
+
+}
+
+@media (max-width: 991px){
+
+    /******************************************
+        Home Page Responsive start 04.03.2022
+    ********************************************/
+
+    .beacome_coachBtn{
+        position: absolute;
+        right: 60px;
+    }
+    .navbar-toggler {
+        padding: 10px 10px;
+        background-color: #74ab75;
+        margin-top: 10px;
+    }
+    .navbar-toggler-icon .bar{
+        background: #fff;
+    }
+    .navbar .navbar-nav>li{
+        padding: 4px 10px;
+    }
+    .navbar .navbar-nav>li a{
+        font-size: 16px;
+        color: #fff;
+    }
+    .navbar .navbar-nav>li a:hover{
+        color: #111;
+    }
+    .Banner .banner_cap h1{
+        width: 60%;
+        line-height: 55px;
+    }
+    .Banner .banner_cap h1::after{
+        right: 24%;
+    }
+    .Banner .banner_cap{
+        padding: 28px 0 40px 0px;
+    }
+    p.center_pra{
+        padding-bottom: 25px;
+        width: 70%;
+    }
+    .how_Work .find_outerBox h3{
+        padding-bottom: 12px;
+        height: 55px;
+    }
+    .feat_coach::after {
+        left: -45px;
+        background-size: 75%;
+    }
+    .feat_coach .slick-slide{
+        width: 304px !important;
+    }
+    .feat_coach .slick-list::after{
+        width: 6%;
+    }
+    .coach_cat{
+        margin-top: 70px;
+        padding-bottom: 70px;
+    }
+    .coach_cat::after {
+        bottom: -119px;
+        width: 45%;
+        background-size: 100%;
+    }
+    .coach_cat::before {
+        right: -35px;
+        background-size: 100%;
+    }
+    .coach_cat .cateArea p.dontSee{
+        padding-top: 45px;
+    }
+    .what_makes{
+        padding: 50px 0;
+    }
+    .what_makes::after{
+        display: none;
+    }
+    .what_makes .left_imgBxo img{
+        object-position: left;
+    }
+    .what_makes .right_content{
+        padding: 15px;
+    }
+    .what_makes .right_content h3 {
+        font-size: 30px;
+        line-height: 38px;
+        padding-bottom: 8px;
+    }
+    .what_makes .right_content p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .testmonial{
+        padding: 50px 0;
+    }
+    .testmonial .slick-list::before{
+        width: 16%;
+    }
+    .testmonial .slick-list::after{
+        width: 23%;
+    }
+    .faq::before{
+        background-size: 60%;
+        top: -14%;
+        right: -9%;
+    }
+    .faq::after {
+        right: -1%;
+        background-size: 80%;
+    }
+    .parent-tab .content p{
+        font-size: 14px;
+    }
+    .faq{
+        padding: 50px 0;
+    }
+    footer .quickLinks ul.secndlinks{
+        padding-left: 70px;
+    }
+    .copyright{
+        padding: 20px 0;
+    }
+    .feat_coach .round_Effect::after{
+        top: -11px;
+        left: 63px;
+    }
+    
+    /******************************************
+        Home Page Responsive end 04.03.2022
+    ********************************************/
+
+}
+
+@media (max-width: 767px){
+
+    /******************************************
+        Home Page Responsive start 04.03.2022
+    ********************************************/
+
+    .beacome_coachBtn ul li a.signup{
+        padding: 20px 6px;
+        margin-right: 10px;
+    }
+    .beacome_coachBtn ul li a.signup.login{
+        padding: 20px 14px;
+    }
+    .beacome_coachBtn ul li a{
+        padding-right: 10px;
+    }
+    .logo img{
+        width: 75%;
+    }
+    .Banner{
+        background-size: 55%;
+    }
+    .Banner .banner_cap h1{
+        width: 82%;
+        line-height: 50px;
+        font-size: 45px;
+        padding-bottom: 12px;
+    }
+    .Banner .banner_cap h1::after {
+        right: 30%;
+        top: -8%;
+    }
+    .Banner .banner_cap p {
+        font-size: 14px;
+        width: 64%;
+        padding-bottom: 12px;
+    }
+    .custom_selbox{
+        top: 25px;
+    }
+    .Banner .banner_cap a{
+        position: relative;
+        top: 32px;
+    }
+    .how_Work{
+        padding: 30px 0;
+    }
+    h2.center_heding{
+        padding-bottom: 15px;
+        font-size: 30px;
+    }
+    p.center_pra{
+        width: 95%;
+        padding-bottom: 15px;
+    }
+    .how_Work .find_outerBox{
+        padding: 30px 15px;
+        margin-bottom: 15px;
+    }
+    .how_Work .find_outerBox .imgbox{
+        margin-left: -32px;
+        margin-bottom: 10px;
+    }
+    .how_Work .find_outerBox h3{
+        font-size: 17px;
+        height: auto;
+        padding-top: 10px;
+    }
+    .how_Work .advice_shape{
+        margin: 0px auto;
+    }
+    .feat_coach .slick-slide{
+        width: 222px !important;
+        margin-right: 20px;
+    }
+    .feat_coach .round_Effect::after{
+        top: -11px;
+        left: 26px;
+    }
+    .feat_coach .main_coachBox{
+        padding: 12px;
+    }
+    .feat_coach .main_coachBox .coach_detil p{
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+    .coach_cat::after{
+        bottom: -155px;
+        width: 43%;
+    }
+    .what_makes .left_imgBxo{
+        z-index: 0;
+    }
+    .what_makes .right_content{
+        padding: 15px;
+    }
+    .what_makes{
+        padding: 30px 0;
+    }
+    .what_makes .right_content span{
+        padding-bottom: 10px;
+    }
+    .how_Work .advice_shape::after{
+        display: none;
+    }
+    .feat_coach::after{
+        display: none;
+    }
+    .testmonial .slick-list::before {
+        width: 5%;
+    }
+    .testmonial .slick-list::after {
+        width: 14%;
+        opacity: 1;
+    }
+    .faq::before{
+        display: none;
+    }
+    .faq::after{
+        display: none;
+    }
+    .wrapper .parent-tab label, .wrapper .child-tab label{
+        padding: 13px 20px;
+    }
+    footer .quickLinks ul.secndlinks {
+        padding-left: 30px;
+    }
+    footer ul.footerSocial{
+        padding-bottom: 0px;
+    }
+    .faq{
+        padding: 30px 0;
+    }
+    .feat_coach .main_coachBox .coach_detil p.userLangu{
+        font-size: 12px;
+    }
+    .coach_cat{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    /******************************************
+        Home Page Responsive end 04.03.2022
+    ********************************************/
+
+}
+
+@media (max-width: 575px){
+
+    /******************************************
+        Home Page Responsive start 04.03.2022
+    ********************************************/
+
+    .navbar-toggler-icon .bar{
+        width: 20px;
+    }
+    .navbar-toggler-icon{
+        width: 1em;
+    }
+    .beacome_coachBtn ul li a.signup.login{
+        padding: 15px 4px;
+        font-size: 12px;
+        height: 32px;
+    }
+    .beacome_coachBtn ul li a.signup {
+        padding: 15px 4px;
+        margin-right: 5px;
+        font-size: 12px;
+        height: 32px;
+    }
+    .navbar-toggler{
+        padding: 5px;
+    }
+    .beacome_coachBtn{
+        right: 40px;
+    }
+    .logo img {
+        width: 50%;
+    }
+    .beacome_coachBtn ul li a{
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    .Banner .banner_cap h1 {
+        width: 100%;
+        line-height: 35px;
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+    .Banner .banner_cap h1::after {
+        display: none;
+    }
+    .Banner .banner_cap p {
+        font-size: 12px;
+        width: 100%;
+        padding-bottom: 12px;
+        line-height: 22px;
+    }
+    .custom_selbox {
+        top: 0px;
+        margin-bottom: 5px;
+    }
+    .Banner .banner_cap a {
+        position: relative;
+        top: 5px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .custom_selbox{
+        max-width: 200px;
+    }
+    .Banner .banner_cap select{
+        font-size: 12px;
+        padding: 12px 40px;
+    }
+    .Banner .banner_cap .lanIcon::after{
+        top: 10px;
+    }
+    .Banner .banner_cap .cat::after{
+        top: 14px;
+    }
+    p.center_pra{
+        width: 100%;
+    }
+    h2.center_heding{
+        font-size: 24px;
+    }
+    .how_Work .find_outerBox{
+        padding: 15px;
+    }
+    .how_Work{
+        margin-bottom: 0px;
+    }
+    .coach_cat::before{
+        display: none;
+    }
+    .coach_cat::after{
+        display: none;
+    }
+    .coach_cat .cateArea{
+        padding-top: 0px;
+    }
+    .coach_cat .cateArea p.dontSee{
+        padding-top: 20px;
+    }
+    .what_makes .right_content h3{
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .what_makes .right_content span{
+        font-size: 19px;
+    }
+    .testmonial{
+        padding: 0 0 30px 0;
+    }
+    .testmonial .test_Box{
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+    .testmonial .slick-slider{
+        padding-left: 0px;
+    }
+    .testmonial .slick-list::before{
+        display: none;
+    }
+    .testmonial .slick-list::after{
+        display: none;
+    }
+    .testmonial .slider-for .slick-current .active_user::after{
+        bottom: 102px;
+    }
+    .wrapper label span{
+        font-size: 13px;
+        padding-right: 5px;
+    }
+    .wrapper .parent-tab, .wrapper .child-tab{
+        width: 100%;
+    }
+    .feat_coach .slick-slide{
+        width: 319px !important;
+        margin-right: 5px;
+    }
+    .feat_coach .slick-prev::before{
+        display: none;
+    }
+    .feat_coach .slick-next::before{
+        display: none;
+    }
+    .feat_coach .round_Effect::after{
+        top: -12px;
+        left: 72px;
+    }
+    .feat_coach .slick-list::after{
+        width: 6%;
+    }
+
+    /******************************************
+        Home Page Responsive end 04.03.2022
+    ********************************************/
+
+
+}
+
+@media (min-width: 400px) and (max-width: 575px){
+
+    .Banner .banner_cap h1{
+        width: 70%;
+    }
+    .Banner .banner_cap p{
+        width: 75%;
+    }
+    .Banner .banner_cap {
+        padding: 28px 0 15px 0px;
+    }
+    .custom_selbox {
+        max-width: 195px;
+    }
+    .Banner .banner_cap select{
+        font-size: 11px;
+    }
+
+}
+
+
