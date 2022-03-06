@@ -664,11 +664,10 @@
         padding-left: 0px;
     }
     .testmonial .slick-list::before{
-        display: none;
+        width: 6%;
+        opacity: 1;
     }
-    .testmonial .slick-list::after{
-        display: none;
-    }
+    
     .testmonial .slider-for .slick-current .active_user::after{
         bottom: 102px;
     }
@@ -699,6 +698,9 @@
     .feat_coach .slick-slide{
         left: 13px;
     }
+    .testmonial .test_Box p{
+        font-size: 12px;
+    }
 
     /******************************************
         Home Page Responsive end 04.03.2022
@@ -725,6 +727,20 @@
         font-size: 11px;
     }
 
+}
+
+@media (min-width: 320px) and (max-width: 430px){
+
+    .testmonial .test_Box {
+        margin-right: 70px;
+        margin-left: 62px;
+    }
+    .testmonial .slick-list::before{
+        display: none;
+    }
+    .testmonial .slick-list::after{
+        display: none;
+    }
 }
 
 

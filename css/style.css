@@ -1352,6 +1352,7 @@ h1,h2,h3,h4,h5,h6,p{
 .testmonial .slick-slide{
     width: 382px;
     padding: 10px 0;
+    position: relative;
 }
 .testmonial .slider-nav .slick-current .test_Box{
     background-color: #74ab75;
